@@ -37,6 +37,11 @@ VNIT For All
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
 ```mermaid
 sequenceDiagram
 Alice ->> Bob: Hello Bob, how are you?

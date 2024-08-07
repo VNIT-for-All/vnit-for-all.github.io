@@ -30,13 +30,13 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
 
-{
+  {
   "dependencies": {
     "mermaid": "^8.9.2"
   }
-}
-{
+  }
+  {
   "scripts": {
     "build": "parcel build index.html --public-url ./"
   }
-}
+  }
